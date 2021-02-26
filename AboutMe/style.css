@@ -74,13 +74,12 @@ div.column-flexbox {
 }
 
 div.listElement {
-    letter-spacing: 0.2em;
     border: 2px solid;
     border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
     border-image-slice: 1;
     width: 21%;
-    height: 33%;
-    padding: 2%;
+    min-height: 33%;
+    padding: 3%;
     flex-flow: column wrap;
 }
 
@@ -99,6 +98,18 @@ div.AboutCourse {
     margin-top: 20px;
     width: 100%;
     border: 2px solid darkslategray;
+}
+div.AboutMe {
+    margin-top: 20px;
+    width: 100vw;
+    border: 2px solid;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 10px;
+}
+.text{
+    font: 20px 'Bradley Hand', Courseive;
+    color: darkslategray;
 }
 h1.HeaderMain{
     text-align: center;
@@ -123,10 +134,9 @@ h1.HeaderMain{
 }
 div.header {
     min-height: 10%;
-    width: 100%;
+    width: 100vw;
     background-image: url(Up.jpg);
     border: 2px solid darkslategray;
-    flex-flow: column wrap;
 
 }
 .textHeader{
